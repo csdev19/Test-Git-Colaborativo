@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.1-b419 (branches/2.3.1.x-7937; 2014-08-04T08:11:03+0000) JAXWS-RI/2.2.10-b140803.1500 JAXWS-API/2.2.11 JAXB-RI/2.2.10-b140802.1033 JAXB-API/2.2.12-b140109.1041 svn-revision#unknown. --><xs:schema xmlns:tns="http://Servicio/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://Servicio/">
+
+<xs:element name="actualizaPassword" type="tns:actualizaPassword"/>
+
+<xs:element name="actualizaPasswordResponse" type="tns:actualizaPasswordResponse"/>
+
+<xs:element name="actualizarPassword" type="tns:actualizarPassword"/>
+
+<xs:element name="actualizarPasswordResponse" type="tns:actualizarPasswordResponse"/>
+
+<xs:element name="getID" type="tns:getID"/>
+
+<xs:element name="getIDResponse" type="tns:getIDResponse"/>
+
+<xs:element name="getPassword" type="tns:getPassword"/>
+
+<xs:element name="getPasswordResponse" type="tns:getPasswordResponse"/>
+
+<xs:element name="getQuestion" type="tns:getQuestion"/>
+
+<xs:element name="getQuestionResponse" type="tns:getQuestionResponse"/>
+
+<xs:element name="getUsername" type="tns:getUsername"/>
+
+<xs:element name="getUsernameResponse" type="tns:getUsernameResponse"/>
+
+<xs:element name="login" type="tns:login"/>
+
+<xs:element name="loginResponse" type="tns:loginResponse"/>
+
+<xs:element name="pregunta" type="tns:pregunta"/>
+
+<xs:element name="preguntaResponse" type="tns:preguntaResponse"/>
+
+<xs:element name="setID" type="tns:setID"/>
+
+<xs:element name="setIDResponse" type="tns:setIDResponse"/>
+
+<xs:element name="setPassword" type="tns:setPassword"/>
+
+<xs:element name="setPasswordResponse" type="tns:setPasswordResponse"/>
+
+<xs:element name="setQuestion" type="tns:setQuestion"/>
+
+<xs:element name="setQuestionResponse" type="tns:setQuestionResponse"/>
+
+<xs:element name="setUsername" type="tns:setUsername"/>
+
+<xs:element name="setUsernameResponse" type="tns:setUsernameResponse"/>
+
+<xs:complexType name="setQuestion">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setQuestionResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="login">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="loginResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="pregunta">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="preguntaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUsername">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getUsernameResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setID">
+<xs:sequence>
+<xs:element name="arg0" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setIDResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="actualizaPassword">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="actualizaPasswordResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="actualizarPassword">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+<xs:element name="arg1" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="actualizarPasswordResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getID">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getIDResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setUsername">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setUsernameResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="setPassword">
+<xs:sequence>
+<xs:element name="arg0" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="setPasswordResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getQuestion">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getQuestionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getPassword">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getPasswordResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
