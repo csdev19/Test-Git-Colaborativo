@@ -5,7 +5,7 @@ Thom estuvo aqui.
 
 
 
-## CREDITOS:
+## Colaboradores:
 
 - Cristian SG
 - Thom
