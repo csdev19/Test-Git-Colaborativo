@@ -1,3 +1,11 @@
 # Test-Git-Colaborativo
-Vamos a jugar un poco con git
-Thom estuvo aqui
+Vamos a jugar un poco con git.
+
+Thom estuvo aqui.
+
+
+
+## CREDITOS:
+
+- Cristian SG
+- Thom
