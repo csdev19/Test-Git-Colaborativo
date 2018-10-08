@@ -7,5 +7,6 @@ Thom estuvo aqui<br> angel tu eras mi amigo , ahora es mi compañero :|
 ## Colaboradores:
 
 - Cristian SG
-- Thom
-- Niuton el de las sumas :vvvv
+- Thom el sadman
+- Niuton:v
+- Robin porq la perdiste v,:
