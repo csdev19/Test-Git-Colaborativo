@@ -1,0 +1,81 @@
+.fondogeneral{	
+	background-color: #F0F0F0;
+}
+
+.fondocabec_pie{	
+	background-color: #96AECF;
+}
+
+.fondocontenido1{	
+	background-color: #FFFFFF;
+}
+
+.fondocontenido2{	
+	background-color: #F0F3F9;
+}
+
+.titulocabecera {	
+	FONT-SIZE: 23px;
+	COLOR: #000066;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+h1{
+    COLOR: #006609;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+
+h2{
+    COLOR: #006609;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+
+.tituloformulario {	
+	FONT-SIZE: 15px;
+	COLOR: #006609;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-WEIGHT: bold;
+}
+
+.titulobasepagina {	
+	FONT-SIZE: 14px;
+	COLOR: #006609;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	FONT-WEIGHT: bold;
+}
+
+.etiquetas{	
+	FONT-SIZE: 12px;
+	COLOR: #008829;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+.cajatexto {
+    FONT-WEIGHT: normal;
+	font-style: normal;
+	FONT-SIZE: 12px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+.botones {
+	FONT-WEIGHT: bold; 
+	COLOR: #008829; 
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	background-color: #96AECF; 
+}
+
+.link_menu {
+	 FONT-SIZE: 13px;
+	 COLOR: #008829;
+	 FONT-FAMILY: Arial, Helvetica, sans-serif; 
+	 TEXT-DECORATION: underline;
+}
+
+
