@@ -1,6 +1,5 @@
 def suma(a,b):
-    c = 10
-    return c
+    return a + b
 
 
 
